@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nkt-Pk-5JB">
-                                <rect key="frame" x="159" y="408.66666666666669" width="75" height="35"/>
+                                <rect key="frame" x="16" y="75" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
                             </button>
@@ -25,8 +25,9 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Nkt-Pk-5JB" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="0Jg-uJ-VO9"/>
-                            <constraint firstItem="Nkt-Pk-5JB" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="TPn-ck-IZR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nkt-Pk-5JB" secondAttribute="trailing" constant="16" id="KiP-O7-ZRG"/>
+                            <constraint firstItem="Nkt-Pk-5JB" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="16" id="Nl4-vL-fhO"/>
+                            <constraint firstItem="Nkt-Pk-5JB" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="x0o-Jk-UnW"/>
                         </constraints>
                     </view>
                     <connections>
